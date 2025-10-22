@@ -3,7 +3,7 @@ package services.dao;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import services.interfaces.ICRUD;
-import utils.JPAConexion;
+import util.JPAConexion;
 
 import java.util.List;
 

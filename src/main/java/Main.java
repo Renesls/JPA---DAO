@@ -1,4 +1,3 @@
-package run;
 
 import entities.Autor;
 import services.dao.MyDao;
@@ -8,7 +7,7 @@ import java.util.List;
 
 public class Main {
 
-    public static final ICRUD dao = new MyDao();
+    public static final ICRUD<Object> dao = new MyDao();
 
     public static void insertarAutor() {
         Autor a = new Autor();
